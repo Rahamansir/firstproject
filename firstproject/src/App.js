@@ -11,8 +11,6 @@ function App() {
   </div>
 }
 
-export default App;
-
 function user(props) {
   return <div className="user">
     <h3>{props.name}</h3>
